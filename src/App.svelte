@@ -25,11 +25,11 @@
 
 <main class="mt-20 h-[90vh]">
   <h1 class="font-black mb-1 text-3xl">Time between Two Dates</h1>
-  <small class="mb-10 block">Calculate the time between two dates.</small>
+  <small class="mb-10 block">Calculate the time between two dates</small>
 
   <section class="grid gap-1 w-full h-[60%]">
     <section
-      class="bg-zinc-100 p-10 col-span-1 rounded-tl-xl sm:rounded-t-xl flex flex-col justify-center"
+      class="bg-zinc-100 dark:bg-zinc-900 p-10 col-span-1 rounded-tl-xl sm:rounded-t-xl flex flex-col justify-center"
     >
       <h2 class="font-black mb-3 text-xl">Start Date</h2>
       <input
@@ -41,7 +41,7 @@
     </section>
 
     <section
-      class="bg-zinc-100 p-10 col-span-1 rounded-tr-xl sm:rounded-none flex flex-col justify-center"
+      class="bg-zinc-100 dark:bg-zinc-900 p-10 col-span-1 rounded-tr-xl sm:rounded-none flex flex-col justify-center"
     >
       <h2 class="font-black mb-3 text-xl">End Date</h2>
       <input
@@ -53,7 +53,7 @@
     </section>
 
     <section
-      class="bg-zinc-100 p-10 col-span-2 sm:col-span-1 rounded-bl-xl sm:rounded-b-xl flex flex-col justify-center"
+      class="bg-zinc-100 dark:bg-zinc-900 p-10 col-span-2 sm:col-span-1 rounded-bl-xl sm:rounded-b-xl flex flex-col justify-center"
     >
       <h2 class="font-bold text-sm">Result</h2>
       {#if !startDate || !endDate || years < 0 || months < 0 || (days < 0 && days % 30 !== 0)}
@@ -86,15 +86,18 @@
     <a
       href="https://github.com/GabEdits/gangi"
       target="_blank"
-      class="underline text-zinc-600 hover:text-zinc-950 transition-colors font-extrabold duration-500"
+      class="underline text-zinc-600 dark:text-zinc-300 dark:hover:text-zinc-200 hover:text-zinc-950 transition-colors font-extrabold duration-500"
       >Source Code</a
     >
 
     <p>
       Made with ❤️ by <a
-        class="font-black underline text-black transition-colors"
+        class="font-black underline text-black dark:text-white transition-colors"
         href="https://gxbs.me/">Gabs</a
       >
+    </p>
+    <p>
+      <small class="font-mono">v0.2.0</small>
     </p>
   </footer>
 </main>
