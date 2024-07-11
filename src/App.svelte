@@ -60,7 +60,10 @@
         <p class="text-4xl font-black">Empty</p>
       {/if}
       {#if years > 0 || months > 0 || (days > 0 && days % 30 !== 0)}
-        <p class="text-4xl font-black">{days} Days</p>
+        <p class="text-4xl font-black">
+          {days}
+          {days === 1 ? "Day" : "Days"}
+        </p>
       {/if}
       {#if years > 0 || months > 0 || (days > 0 && days % 30 !== 0)}
         <small class="block">or</small>
