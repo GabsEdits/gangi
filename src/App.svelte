@@ -34,7 +34,7 @@
       <h2 class="font-black mb-3 text-xl">Start Date</h2>
       <input
         type="date"
-        class="border border-gray-300 p-2 rounded w-full"
+        class="border border-gray-300 dark:border-gray-700 p-2 rounded w-full bg-zinc-200 dark:bg-zinc-900"
         bind:value={startDate}
         on:change={calculateTime}
       />
@@ -46,7 +46,7 @@
       <h2 class="font-black mb-3 text-xl">End Date</h2>
       <input
         type="date"
-        class="border border-gray-300 p-2 rounded w-full"
+        class="border border-gray-300 dark:border-gray-700 p-2 rounded w-full bg-zinc-200 dark:bg-zinc-900"
         bind:value={endDate}
         on:change={calculateTime}
       />
