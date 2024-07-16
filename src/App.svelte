@@ -53,7 +53,7 @@
     </section>
 
     <section
-      class="bg-zinc-100 dark:bg-zinc-900 p-10 col-span-2 sm:col-span-1 rounded-bl-xl sm:rounded-b-xl flex flex-col justify-center"
+      class="bg-zinc-100 dark:bg-zinc-900 p-10 col-span-2 sm:col-span-1 rounded-b-xl sm:rounded-b-xl flex flex-col justify-center"
     >
       <h2 class="font-bold text-sm">Result</h2>
       {#if !startDate || !endDate || years < 0 || months < 0 || (days < 0 && days % 30 !== 0)}
