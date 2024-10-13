@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "dev": "deno run -NRWE --allow-ffi --allow-sys --allow-run --unstable npm:vite",
+    "build": "deno run --allow-net --allow-read --allow-write --unstable npm:vite build",
+    "preview": "deno run --allow-net --allow-read --allow-write --unstable npm:vite preview"
+  },
+  "nodeModulesDir": "auto"
+}

@@ -20,18 +20,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - name: Set up Deno
+        uses: denoland/setup-deno@v2
         with:
-          node-version: latest
-      - uses: pnpm/action-setup@v3
-        with:
-          version: latest
-      - run: pnpm install
+          deno-version: v2.x
+
+      - name: Install dependencies
+        run: deno install --allow-scripts
 
       - name: Format Code
         run: |
-          pnpm format
+          deno fmt
 
       - name: Commit changes
         run: |

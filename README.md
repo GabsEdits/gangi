@@ -6,22 +6,23 @@
 
 ## Development
 
-The project is build using [Vite](https://vite.dev) and [Svelte](https://svelte.dev). [PNPM](https://pnpm.io) is used as the package manager. Make sure you have it installed along side Node.js.
+The project is build using [Vite](https://vite.dev) and
+[Svelte](https://svelte.dev).\
+[Deno](https://deno.com) is the only requirement to run the project.
 
 ### Installation
 
 ```bash
-pnpm install
+deno install --allow-scripts
 ```
 
 ### Scripts
 
-- `dev`: Start the development server (`pnpm dev`)
-- `build`: Build the project (`pnpm build`)
-- `preview`: Serve the build project (`pnpm serve`)
-- `check`: Check for linting errors (`pnpm check`)
-- `format`: Format the code (`pnpm format`)
+- `dev`: Start the development server (`deno dev`)
+- `build`: Build the project (`deno build`)
+- `preview`: Serve the build project (`deno serve`)
 
 ## License
 
-This project is licensed under the GNU Affero General Public License v3.0. See the [LICENSE](LICENSE.txt) file for more information.
+This project is licensed under the GNU Affero General Public License v3.0. See
+the [LICENSE](LICENSE.txt) file for more information.
