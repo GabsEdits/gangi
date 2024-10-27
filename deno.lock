@@ -11,7 +11,7 @@
     "npm:svelte@^4.2.19": "4.2.19",
     "npm:tailwindcss@^3.4.13": "3.4.13_postcss@8.4.47",
     "npm:tslib@^2.7.0": "2.7.0",
-    "npm:typescript@^5.6.2": "5.6.3",
+    "npm:typescript@^5.6.3": "5.6.3",
     "npm:vite@*": "5.4.8",
     "npm:vite@^5.4.8": "5.4.8"
   },
@@ -448,8 +448,8 @@
         "reusify"
       ]
     },
-    "fdir@6.4.0": {
-      "integrity": "sha512-3oB133prH1o4j/L5lLW7uOCF1PlD+/It2L0eL/iAqWMB91RBbqTewABqxhj0ibBd90EEmWZq7ntIWzVaWcXTGQ=="
+    "fdir@6.4.2": {
+      "integrity": "sha512-KnhMXsKSPZlAhp7+IjUkRZKPb4fUyccpDrdFXbi4QL1qkmFh9kVY09Yox+n4MaOb3lHZ1Tv829C3oaaXoMYPDQ=="
     },
     "fill-range@7.1.1": {
       "integrity": "sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==",
@@ -991,7 +991,7 @@
         "npm:svelte@^4.2.19",
         "npm:tailwindcss@^3.4.13",
         "npm:tslib@^2.7.0",
-        "npm:typescript@^5.6.2",
+        "npm:typescript@^5.6.3",
         "npm:vite@^5.4.8"
       ]
     }
