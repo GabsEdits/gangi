@@ -8,19 +8,20 @@
 
 The project is build using [Vite](https://vite.dev) and
 [Svelte](https://svelte.dev).\
-[Deno](https://deno.com) is the only requirement to run the project.
+
+Make sure you have [Node.js](https://nodejs.org) and [PNPM](https://pnpm.io) installed.
 
 ### Installation
 
 ```bash
-deno install --allow-scripts
+pnpm install
 ```
 
 ### Scripts
 
-- `dev`: Start the development server (`deno dev`)
-- `build`: Build the project (`deno build`)
-- `preview`: Serve the build project (`deno serve`)
+- `dev`: Start the development server (`pnpm dev`)
+- `build`: Build the project (`pnpm build`)
+- `preview`: Serve the build project (`pnpm serve`)
 
 ## License
 
