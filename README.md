@@ -9,7 +9,8 @@
 The project is build using [Vite](https://vite.dev) and
 [Svelte](https://svelte.dev).\
 
-Make sure you have [Node.js](https://nodejs.org) and [PNPM](https://pnpm.io) installed.
+Make sure you have [Node.js](https://nodejs.org) and [PNPM](https://pnpm.io)
+installed.
 
 ### Installation
 
