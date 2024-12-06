@@ -8,7 +8,7 @@
     "npm:prettier@^3.3.3": "3.3.3",
     "npm:svelte-check@^4.1.0": "4.1.0_svelte@4.2.19_typescript@5.6.3",
     "npm:svelte@^4.2.19": "4.2.19",
-    "npm:tailwindcss@^3.4.14": "3.4.14_postcss@8.4.47",
+    "npm:tailwindcss@^3.4.16": "3.4.16_postcss@8.4.47",
     "npm:tslib@^2.8.1": "2.8.1",
     "npm:typescript@^5.6.3": "5.6.3",
     "npm:vite@^5.4.11": "5.4.11"
@@ -354,8 +354,8 @@
     "commander@4.1.1": {
       "integrity": "sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA=="
     },
-    "cross-spawn@7.0.3": {
-      "integrity": "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==",
+    "cross-spawn@7.0.6": {
+      "integrity": "sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==",
       "dependencies": [
         "path-key",
         "shebang-command",
@@ -555,11 +555,8 @@
     "kleur@4.1.5": {
       "integrity": "sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ=="
     },
-    "lilconfig@2.1.0": {
-      "integrity": "sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ=="
-    },
-    "lilconfig@3.1.2": {
-      "integrity": "sha512-eop+wDAvpItUys0FWkHIKeC9ybYrTGbU41U5K7+bttZZeohvnY7M9dZ5kB21GNWiFT2q1OoPTvncPCgSOVO5ow=="
+    "lilconfig@3.1.3": {
+      "integrity": "sha512-/vlFKAoH5Cgt3Ie+JLhRbwOsCQePABiU3tJ1egGvyQ+33R/vcwM2Zl2QR/LzjsBeItPt3oSVXapn+m4nQDvpzw=="
     },
     "lines-and-columns@1.2.4": {
       "integrity": "sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg=="
@@ -685,7 +682,7 @@
     "postcss-load-config@4.0.2_postcss@8.4.47": {
       "integrity": "sha512-bSVhyJGL00wMVoPUzAVAnbEoWyqRxkjv64tUl427SKnPrENtq6hJwUojroMz2VB+Q1edmi4IfrAPpami5VVgMQ==",
       "dependencies": [
-        "lilconfig@3.1.2",
+        "lilconfig",
         "postcss",
         "yaml"
       ]
@@ -879,8 +876,8 @@
         "periscopic"
       ]
     },
-    "tailwindcss@3.4.14_postcss@8.4.47": {
-      "integrity": "sha512-IcSvOcTRcUtQQ7ILQL5quRDg7Xs93PdJEk1ZLbhhvJc7uj/OAhYOnruEiwnGgBvUtaUAJ8/mhSw1o8L2jCiENA==",
+    "tailwindcss@3.4.16_postcss@8.4.47": {
+      "integrity": "sha512-TI4Cyx7gDiZ6r44ewaJmt0o6BrMCT5aK5e0rmJ/G9Xq3w7CX/5VXl/zIPEJZFUK5VEqwByyhqNPycPlvcK4ZNw==",
       "dependencies": [
         "@alloc/quick-lru",
         "arg",
@@ -891,7 +888,7 @@
         "glob-parent@6.0.2",
         "is-glob",
         "jiti",
-        "lilconfig@2.1.0",
+        "lilconfig",
         "micromatch",
         "normalize-path",
         "object-hash",
@@ -981,8 +978,8 @@
         "strip-ansi@7.1.0"
       ]
     },
-    "yaml@2.6.0": {
-      "integrity": "sha512-a6ae//JvKDEra2kdi1qzCyrJW/WZCgFi8ydDV+eXExl95t+5R+ijnqHJbz9tmMh8FUjx3iv2fCQ4dclAQlO2UQ=="
+    "yaml@2.6.1": {
+      "integrity": "sha512-7r0XPzioN/Q9kXBro/XPnA6kznR73DHq+GXh5ON7ZozRO6aMjbmiBuKste2wslTFkC5d1dw0GooOCepZXJ2SAg=="
     }
   },
   "workspace": {
@@ -995,7 +992,7 @@
         "npm:prettier@^3.3.3",
         "npm:svelte-check@^4.1.0",
         "npm:svelte@^4.2.19",
-        "npm:tailwindcss@^3.4.14",
+        "npm:tailwindcss@^3.4.16",
         "npm:tslib@^2.8.1",
         "npm:typescript@^5.6.3",
         "npm:vite@^5.4.11"
