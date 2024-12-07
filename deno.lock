@@ -5,10 +5,11 @@
     "npm:@tsconfig/svelte@^5.0.4": "5.0.4",
     "npm:autoprefixer@^10.4.20": "10.4.20_postcss@8.4.47",
     "npm:postcss@^8.4.47": "8.4.47",
+    "npm:postcss@^8.4.49": "8.4.49",
     "npm:prettier@^3.3.3": "3.3.3",
     "npm:svelte-check@^4.1.0": "4.1.0_svelte@4.2.19_typescript@5.6.3",
     "npm:svelte@^4.2.19": "4.2.19",
-    "npm:tailwindcss@^3.4.16": "3.4.16_postcss@8.4.47",
+    "npm:tailwindcss@^3.4.16": "3.4.16_postcss@8.4.49",
     "npm:tslib@^2.8.1": "2.8.1",
     "npm:typescript@^5.6.3": "5.6.3",
     "npm:vite@^5.4.11": "5.4.11"
@@ -273,7 +274,7 @@
         "fraction.js",
         "normalize-range",
         "picocolors",
-        "postcss",
+        "postcss@8.4.47",
         "postcss-value-parser"
       ]
     },
@@ -310,8 +311,8 @@
     "camelcase-css@2.0.1": {
       "integrity": "sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA=="
     },
-    "caniuse-lite@1.0.30001673": {
-      "integrity": "sha512-WTrjUCSMp3LYX0nE12ECkV0a+e6LC85E0Auz75555/qr78Oc8YWhEPNfDd6SHdtlCMSzqtuXY0uyEMNRcsKpKw=="
+    "caniuse-lite@1.0.30001687": {
+      "integrity": "sha512-0S/FDhf4ZiqrTUiQ39dKeUjYRjkv7lOZU1Dgif2rIqrTzX/1wV2hfKu9TOm1IHkdSijfLswxTFzl/cvir+SLSQ=="
     },
     "chokidar@3.6.0": {
       "integrity": "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==",
@@ -390,8 +391,8 @@
     "eastasianwidth@0.2.0": {
       "integrity": "sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA=="
     },
-    "electron-to-chromium@1.5.47": {
-      "integrity": "sha512-zS5Yer0MOYw4rtK2iq43cJagHZ8sXN0jDHDKzB+86gSBSAI4v07S97mcq+Gs2vclAxSh1j7vOAHxSVgduiiuVQ=="
+    "electron-to-chromium@1.5.71": {
+      "integrity": "sha512-dB68l59BI75W1BUGVTAEJy45CEVuEGy9qPVVQ8pnHyHMn36PLPPoE1mjLH+lo9rKulO3HC2OhbACI/8tCqJBcA=="
     },
     "emoji-regex@8.0.0": {
       "integrity": "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A=="
@@ -663,34 +664,34 @@
     "pirates@4.0.6": {
       "integrity": "sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg=="
     },
-    "postcss-import@15.1.0_postcss@8.4.47": {
+    "postcss-import@15.1.0_postcss@8.4.49": {
       "integrity": "sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==",
       "dependencies": [
-        "postcss",
+        "postcss@8.4.49",
         "postcss-value-parser",
         "read-cache",
         "resolve"
       ]
     },
-    "postcss-js@4.0.1_postcss@8.4.47": {
+    "postcss-js@4.0.1_postcss@8.4.49": {
       "integrity": "sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==",
       "dependencies": [
         "camelcase-css",
-        "postcss"
+        "postcss@8.4.49"
       ]
     },
-    "postcss-load-config@4.0.2_postcss@8.4.47": {
+    "postcss-load-config@4.0.2_postcss@8.4.49": {
       "integrity": "sha512-bSVhyJGL00wMVoPUzAVAnbEoWyqRxkjv64tUl427SKnPrENtq6hJwUojroMz2VB+Q1edmi4IfrAPpami5VVgMQ==",
       "dependencies": [
         "lilconfig",
-        "postcss",
+        "postcss@8.4.49",
         "yaml"
       ]
     },
-    "postcss-nested@6.2.0_postcss@8.4.47": {
+    "postcss-nested@6.2.0_postcss@8.4.49": {
       "integrity": "sha512-HQbt28KulC5AJzG+cZtj9kvKB93CFCdLvog1WFLf1D+xmMvPGlBstkpTEZfK5+AN9hfJocyBFCNiqyS48bpgzQ==",
       "dependencies": [
-        "postcss",
+        "postcss@8.4.49",
         "postcss-selector-parser"
       ]
     },
@@ -706,6 +707,14 @@
     },
     "postcss@8.4.47": {
       "integrity": "sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==",
+      "dependencies": [
+        "nanoid",
+        "picocolors",
+        "source-map-js"
+      ]
+    },
+    "postcss@8.4.49": {
+      "integrity": "sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==",
       "dependencies": [
         "nanoid",
         "picocolors",
@@ -876,7 +885,7 @@
         "periscopic"
       ]
     },
-    "tailwindcss@3.4.16_postcss@8.4.47": {
+    "tailwindcss@3.4.16_postcss@8.4.49": {
       "integrity": "sha512-TI4Cyx7gDiZ6r44ewaJmt0o6BrMCT5aK5e0rmJ/G9Xq3w7CX/5VXl/zIPEJZFUK5VEqwByyhqNPycPlvcK4ZNw==",
       "dependencies": [
         "@alloc/quick-lru",
@@ -893,7 +902,7 @@
         "normalize-path",
         "object-hash",
         "picocolors",
-        "postcss",
+        "postcss@8.4.49",
         "postcss-import",
         "postcss-js",
         "postcss-load-config",
@@ -946,7 +955,7 @@
       "dependencies": [
         "esbuild",
         "fsevents",
-        "postcss",
+        "postcss@8.4.47",
         "rollup"
       ]
     },
@@ -988,7 +997,7 @@
         "npm:@sveltejs/vite-plugin-svelte@^3.1.2",
         "npm:@tsconfig/svelte@^5.0.4",
         "npm:autoprefixer@^10.4.20",
-        "npm:postcss@^8.4.47",
+        "npm:postcss@^8.4.49",
         "npm:prettier@^3.3.3",
         "npm:svelte-check@^4.1.0",
         "npm:svelte@^4.2.19",
