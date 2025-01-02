@@ -62,7 +62,7 @@
       {#if years > 0 || months > 0 || (days > 0 && days % 30 !== 0)}
         <p class="text-4xl font-black">
           {days}
-          {days === 1 ? "Day" : "Days"}
+          {days === 1 ? " day" : " days"}
         </p>
       {/if}
       {#if years > 0 || months > 0 || (days > 0 && days % 30 !== 0)}
@@ -71,15 +71,15 @@
       <small class="block">
         {#if years > 0}
           {years}
-          {years === 1 ? "year" : "years"},
+          {years === 1 ? " year" : " years"},
         {/if}
         {#if months > 0}
           {months}
-          {months === 1 ? "month" : "months"}, and
+          {months === 1 ? " month" : " months"}, and
         {/if}
         {#if days > 0 && days % 30 !== 0}
           {days % 30}
-          {days % 30 === 1 ? "day" : "days"}
+          {days % 30 === 1 ? " day" : " days"}
         {/if}
       </small>
     </section>
@@ -96,7 +96,7 @@
     <p>
       Made with ❤️ by <a
         class="font-black underline text-black dark:text-white transition-colors"
-        href="https://gxbs.me/">Gabs</a
+        href="https://gxbs.dev/">Gabs</a
       >
     </p>
     <p>
