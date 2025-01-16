@@ -5,11 +5,11 @@
     "npm:@tsconfig/svelte@^5.0.4": "5.0.4",
     "npm:autoprefixer@^10.4.20": "10.4.20_postcss@8.4.47",
     "npm:postcss@^8.4.47": "8.4.47",
-    "npm:postcss@^8.4.49": "8.4.49",
+    "npm:postcss@^8.5.1": "8.5.1",
     "npm:prettier@^3.4.2": "3.4.2",
     "npm:svelte-check@^4.1.4": "4.1.4_svelte@4.2.19_typescript@5.7.2",
     "npm:svelte@^4.2.19": "4.2.19",
-    "npm:tailwindcss@^3.4.17": "3.4.17_postcss@8.4.49",
+    "npm:tailwindcss@^3.4.17": "3.4.17_postcss@8.5.1",
     "npm:tslib@^2.8.1": "2.8.1",
     "npm:typescript@^5.7.2": "5.7.2",
     "npm:vite@^5.4.11": "5.4.11"
@@ -437,8 +437,8 @@
         "@types/estree"
       ]
     },
-    "fast-glob@3.3.2": {
-      "integrity": "sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==",
+    "fast-glob@3.3.3": {
+      "integrity": "sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==",
       "dependencies": [
         "@nodelib/fs.stat",
         "@nodelib/fs.walk",
@@ -613,6 +613,9 @@
     "nanoid@3.3.7": {
       "integrity": "sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g=="
     },
+    "nanoid@3.3.8": {
+      "integrity": "sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w=="
+    },
     "node-releases@2.0.18": {
       "integrity": "sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g=="
     },
@@ -664,34 +667,34 @@
     "pirates@4.0.6": {
       "integrity": "sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg=="
     },
-    "postcss-import@15.1.0_postcss@8.4.49": {
+    "postcss-import@15.1.0_postcss@8.5.1": {
       "integrity": "sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==",
       "dependencies": [
-        "postcss@8.4.49",
+        "postcss@8.5.1",
         "postcss-value-parser",
         "read-cache",
         "resolve"
       ]
     },
-    "postcss-js@4.0.1_postcss@8.4.49": {
+    "postcss-js@4.0.1_postcss@8.5.1": {
       "integrity": "sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==",
       "dependencies": [
         "camelcase-css",
-        "postcss@8.4.49"
+        "postcss@8.5.1"
       ]
     },
-    "postcss-load-config@4.0.2_postcss@8.4.49": {
+    "postcss-load-config@4.0.2_postcss@8.5.1": {
       "integrity": "sha512-bSVhyJGL00wMVoPUzAVAnbEoWyqRxkjv64tUl427SKnPrENtq6hJwUojroMz2VB+Q1edmi4IfrAPpami5VVgMQ==",
       "dependencies": [
         "lilconfig",
-        "postcss@8.4.49",
+        "postcss@8.5.1",
         "yaml"
       ]
     },
-    "postcss-nested@6.2.0_postcss@8.4.49": {
+    "postcss-nested@6.2.0_postcss@8.5.1": {
       "integrity": "sha512-HQbt28KulC5AJzG+cZtj9kvKB93CFCdLvog1WFLf1D+xmMvPGlBstkpTEZfK5+AN9hfJocyBFCNiqyS48bpgzQ==",
       "dependencies": [
-        "postcss@8.4.49",
+        "postcss@8.5.1",
         "postcss-selector-parser"
       ]
     },
@@ -708,15 +711,15 @@
     "postcss@8.4.47": {
       "integrity": "sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==",
       "dependencies": [
-        "nanoid",
+        "nanoid@3.3.7",
         "picocolors",
         "source-map-js"
       ]
     },
-    "postcss@8.4.49": {
-      "integrity": "sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==",
+    "postcss@8.5.1": {
+      "integrity": "sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==",
       "dependencies": [
-        "nanoid",
+        "nanoid@3.3.8",
         "picocolors",
         "source-map-js"
       ]
@@ -885,7 +888,7 @@
         "periscopic"
       ]
     },
-    "tailwindcss@3.4.17_postcss@8.4.49": {
+    "tailwindcss@3.4.17_postcss@8.5.1": {
       "integrity": "sha512-w33E2aCvSDP0tW9RZuNXadXlkHXqFzSkQew/aIa2i/Sj8fThxwovwlXHSPXTbAHwEIhBFXAedUhP2tueAKP8Og==",
       "dependencies": [
         "@alloc/quick-lru",
@@ -902,7 +905,7 @@
         "normalize-path",
         "object-hash",
         "picocolors",
-        "postcss@8.4.49",
+        "postcss@8.5.1",
         "postcss-import",
         "postcss-js",
         "postcss-load-config",
@@ -987,8 +990,8 @@
         "strip-ansi@7.1.0"
       ]
     },
-    "yaml@2.6.1": {
-      "integrity": "sha512-7r0XPzioN/Q9kXBro/XPnA6kznR73DHq+GXh5ON7ZozRO6aMjbmiBuKste2wslTFkC5d1dw0GooOCepZXJ2SAg=="
+    "yaml@2.7.0": {
+      "integrity": "sha512-+hSoy/QHluxmC9kCIJyL/uyFmLmc+e5CFR5Wa+bpIhIj85LVb9ZH2nVnqrHoSvKogwODv0ClqZkmiSSaIH5LTA=="
     }
   },
   "workspace": {
@@ -997,7 +1000,7 @@
         "npm:@sveltejs/vite-plugin-svelte@^3.1.2",
         "npm:@tsconfig/svelte@^5.0.4",
         "npm:autoprefixer@^10.4.20",
-        "npm:postcss@^8.4.49",
+        "npm:postcss@^8.5.1",
         "npm:prettier@^3.4.2",
         "npm:svelte-check@^4.1.4",
         "npm:svelte@^4.2.19",
