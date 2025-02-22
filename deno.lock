@@ -9,6 +9,7 @@
     "npm:svelte-check@^4.1.4": "4.1.4_svelte@4.2.19_typescript@5.7.3",
     "npm:svelte@^4.2.19": "4.2.19",
     "npm:tailwindcss@^4.0.7": "4.0.7",
+    "npm:tailwindcss@^4.0.8": "4.0.8",
     "npm:tslib@^2.8.1": "2.8.1",
     "npm:typescript@^5.7.3": "5.7.3",
     "npm:vite@^5.4.11": "5.4.11"
@@ -196,7 +197,7 @@
       "dependencies": [
         "enhanced-resolve",
         "jiti",
-        "tailwindcss"
+        "tailwindcss@4.0.7"
       ]
     },
     "@tailwindcss/oxide-android-arm64@4.0.7": {
@@ -254,7 +255,7 @@
         "@tailwindcss/node",
         "@tailwindcss/oxide",
         "lightningcss",
-        "tailwindcss",
+        "tailwindcss@4.0.7",
         "vite@5.4.11_lightningcss@1.29.1"
       ]
     },
@@ -536,6 +537,9 @@
     "tailwindcss@4.0.7": {
       "integrity": "sha512-yH5bPPyapavo7L+547h3c4jcBXcrKwybQRjwdEIVAd9iXRvy/3T1CC6XSQEgZtRySjKfqvo3Cc0ZF1DTheuIdA=="
     },
+    "tailwindcss@4.0.8": {
+      "integrity": "sha512-Me7N5CKR+D2A1xdWA5t5+kjjT7bwnxZOE6/yDI/ixJdJokszsn2n++mdU5yJwrsTpqFX2B9ZNMBJDwcqk9C9lw=="
+    },
     "tapable@2.2.1": {
       "integrity": "sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ=="
     },
@@ -580,7 +584,7 @@
         "npm:prettier@^3.4.2",
         "npm:svelte-check@^4.1.4",
         "npm:svelte@^4.2.19",
-        "npm:tailwindcss@^4.0.7",
+        "npm:tailwindcss@^4.0.8",
         "npm:tslib@^2.8.1",
         "npm:typescript@^5.7.3",
         "npm:vite@^5.4.11"
