@@ -1,13 +1,13 @@
 {
   "version": "5",
   "specifiers": {
-    "npm:@sveltejs/vite-plugin-svelte@^3.1.2": "3.1.2_svelte@4.2.19_vite@5.4.11",
+    "npm:@sveltejs/vite-plugin-svelte@^3.1.2": "3.1.2_svelte@4.2.20_vite@5.4.11__lightningcss@1.29.2",
     "npm:@tailwindcss/vite@^4.1.6": "4.1.6_vite@5.4.11__lightningcss@1.29.2",
     "npm:@tsconfig/svelte@^5.0.4": "5.0.4",
     "npm:postcss@^8.4.47": "8.4.47",
     "npm:prettier@^3.5.3": "3.5.3",
-    "npm:svelte-check@^4.2.1": "4.2.1_svelte@4.2.19_typescript@5.8.3",
-    "npm:svelte@^4.2.19": "4.2.19",
+    "npm:svelte-check@^4.2.1": "4.2.1_svelte@4.2.20_typescript@5.8.3",
+    "npm:svelte@^4.2.20": "4.2.20",
     "npm:tailwindcss@^4.1.6": "4.1.6",
     "npm:tslib@^2.8.1": "2.8.1",
     "npm:typescript@^5.8.3": "5.8.3",
@@ -283,7 +283,7 @@
       "os": ["win32"],
       "cpu": ["x64"]
     },
-    "@sveltejs/vite-plugin-svelte-inspector@2.1.0_@sveltejs+vite-plugin-svelte@3.1.2__svelte@4.2.19__vite@5.4.11_svelte@4.2.19_vite@5.4.11": {
+    "@sveltejs/vite-plugin-svelte-inspector@2.1.0_@sveltejs+vite-plugin-svelte@3.1.2__svelte@4.2.20__vite@5.4.11___lightningcss@1.29.2_svelte@4.2.20_vite@5.4.11__lightningcss@1.29.2": {
       "integrity": "sha512-9QX28IymvBlSCqsCll5t0kQVxipsfhFFL+L2t3nTWfXnddYwxBuAEtTtlaVQpRz9c37BhJjltSeY4AJSC03SSg==",
       "dependencies": [
         "@sveltejs/vite-plugin-svelte",
@@ -292,14 +292,14 @@
         "vite@5.4.11_lightningcss@1.29.2"
       ]
     },
-    "@sveltejs/vite-plugin-svelte@3.1.2_svelte@4.2.19_vite@5.4.11": {
+    "@sveltejs/vite-plugin-svelte@3.1.2_svelte@4.2.20_vite@5.4.11__lightningcss@1.29.2": {
       "integrity": "sha512-Txsm1tJvtiYeLUVRNqxZGKR/mI+CzuIQuc2gn+YCs9rMTowpNZ2Nqt53JdL8KF9bLhAf2ruR/dr9eZCwdTriRA==",
       "dependencies": [
         "@sveltejs/vite-plugin-svelte-inspector",
         "debug",
         "deepmerge",
         "kleur",
-        "magic-string@0.30.12",
+        "magic-string",
         "svelte",
         "svelte-hmr",
         "vite@5.4.11_lightningcss@1.29.2",
@@ -313,7 +313,7 @@
         "enhanced-resolve",
         "jiti",
         "lightningcss",
-        "magic-string@0.30.17",
+        "magic-string",
         "source-map-js",
         "tailwindcss"
       ]
@@ -495,8 +495,8 @@
     "@types/estree@1.0.6": {
       "integrity": "sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw=="
     },
-    "acorn@8.14.0": {
-      "integrity": "sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==",
+    "acorn@8.14.1": {
+      "integrity": "sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==",
       "bin": true
     },
     "aria-query@5.3.2": {
@@ -531,8 +531,8 @@
         "source-map-js"
       ]
     },
-    "debug@4.3.7": {
-      "integrity": "sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==",
+    "debug@4.4.1": {
+      "integrity": "sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==",
       "dependencies": [
         "ms"
       ]
@@ -600,8 +600,8 @@
     "graceful-fs@4.2.11": {
       "integrity": "sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ=="
     },
-    "is-reference@3.0.2": {
-      "integrity": "sha512-v3rht/LgVcsdZa3O2Nqs+NMowLOxeOm7Ay9+/ARQ2F+qEoANRcqrjAZKGN0v8ymUetZGgkp26LTnGT7H0Qo9Pg==",
+    "is-reference@3.0.3": {
+      "integrity": "sha512-ixkJoqQvAP88E6wLydLGGqCJsrFUnqoH6HnaczB8XmDH1oaWU+xxdptvikTgaEhtZ53Ky6YXiBuUI2WXLMCwjw==",
       "dependencies": [
         "@types/estree"
       ]
@@ -683,12 +683,6 @@
     },
     "locate-character@3.0.0": {
       "integrity": "sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA=="
-    },
-    "magic-string@0.30.12": {
-      "integrity": "sha512-Ea8I3sQMVXr8JhN4z+H/d8zwo+tYDgHE9+5G4Wnrwhs0gaK9fXTKx0Tw5Xwsd/bCPTTZNRAdpyzvoeORe9LYpw==",
-      "dependencies": [
-        "@jridgewell/sourcemap-codec"
-      ]
     },
     "magic-string@0.30.17": {
       "integrity": "sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==",
@@ -785,7 +779,7 @@
     "source-map-js@1.2.1": {
       "integrity": "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA=="
     },
-    "svelte-check@4.2.1_svelte@4.2.19_typescript@5.8.3": {
+    "svelte-check@4.2.1_svelte@4.2.20_typescript@5.8.3": {
       "integrity": "sha512-e49SU1RStvQhoipkQ/aonDhHnG3qxHSBtNfBRb9pxVXoa+N7qybAo32KgA9wEb2PCYFNaDg7bZCdhLD1vHpdYA==",
       "dependencies": [
         "@jridgewell/trace-mapping",
@@ -798,14 +792,14 @@
       ],
       "bin": true
     },
-    "svelte-hmr@0.16.0_svelte@4.2.19": {
+    "svelte-hmr@0.16.0_svelte@4.2.20": {
       "integrity": "sha512-Gyc7cOS3VJzLlfj7wKS0ZnzDVdv3Pn2IuVeJPk9m2skfhcu5bq3wtIZyQGggr7/Iim5rH5cncyQft/kRLupcnA==",
       "dependencies": [
         "svelte"
       ]
     },
-    "svelte@4.2.19": {
-      "integrity": "sha512-IY1rnGr6izd10B0A8LqsBfmlT5OILVuZ7XsI0vdGPEvuonFV7NYEUK4dAkm9Zg2q0Um92kYjTpS1CAP3Nh/KWw==",
+    "svelte@4.2.20": {
+      "integrity": "sha512-eeEgGc2DtiUil5ANdtd8vPwt9AgaMdnuUFnPft9F5oMvU/FHu5IHFic+p1dR/UOB7XU2mX2yHW+NcTch4DCh5Q==",
       "dependencies": [
         "@ampproject/remapping",
         "@jridgewell/sourcemap-codec",
@@ -819,7 +813,7 @@
         "estree-walker",
         "is-reference",
         "locate-character",
-        "magic-string@0.30.12",
+        "magic-string",
         "periscopic"
       ]
     },
@@ -885,7 +879,7 @@
       ],
       "bin": true
     },
-    "vitefu@0.2.5_vite@5.4.11": {
+    "vitefu@0.2.5_vite@5.4.11__lightningcss@1.29.2": {
       "integrity": "sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==",
       "dependencies": [
         "vite@5.4.11_lightningcss@1.29.2"
@@ -906,7 +900,7 @@
         "npm:@tsconfig/svelte@^5.0.4",
         "npm:prettier@^3.5.3",
         "npm:svelte-check@^4.2.1",
-        "npm:svelte@^4.2.19",
+        "npm:svelte@^4.2.20",
         "npm:tailwindcss@^4.1.6",
         "npm:tslib@^2.8.1",
         "npm:typescript@^5.8.3",
