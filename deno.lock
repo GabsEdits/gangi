@@ -5,7 +5,7 @@
     "npm:@tailwindcss/vite@^4.1.9": "4.1.9_vite@5.4.11__lightningcss@1.29.2",
     "npm:@tsconfig/svelte@^5.0.4": "5.0.4",
     "npm:postcss@^8.4.47": "8.4.47",
-    "npm:prettier@^3.5.3": "3.5.3",
+    "npm:prettier@^3.6.2": "3.6.2",
     "npm:svelte-check@^4.2.1": "4.2.1_svelte@4.2.20_typescript@5.8.3",
     "npm:svelte@^4.2.20": "4.2.20",
     "npm:tailwindcss@^4.1.6": "4.1.6",
@@ -878,8 +878,8 @@
         "source-map-js"
       ]
     },
-    "prettier@3.5.3": {
-      "integrity": "sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==",
+    "prettier@3.6.2": {
+      "integrity": "sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==",
       "bin": true
     },
     "readdirp@4.1.2": {
@@ -1044,7 +1044,7 @@
         "npm:@sveltejs/vite-plugin-svelte@^3.1.2",
         "npm:@tailwindcss/vite@^4.1.9",
         "npm:@tsconfig/svelte@^5.0.4",
-        "npm:prettier@^3.5.3",
+        "npm:prettier@^3.6.2",
         "npm:svelte-check@^4.2.1",
         "npm:svelte@^4.2.20",
         "npm:tailwindcss@^4.1.6",
